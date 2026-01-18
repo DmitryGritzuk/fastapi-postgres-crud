@@ -1,18 +1,21 @@
-# FastAPI + Postgres CRUD (Tasks)
+# FastAPI + PostgreSQL CRUD (Tasks)
 
-Мини-проект: CRUD API на FastAPI + PostgreSQL + SQLAlchemy + Alembic.
+Мини-проект: REST API на **FastAPI** с хранением данных в **PostgreSQL**.  
+Есть **CRUD**, **Swagger документация**, **SQLAlchemy 2.0** и **Alembic миграции**.
 
 ## Стек
 - FastAPI
 - PostgreSQL (Docker)
 - SQLAlchemy 2.0
 - psycopg (driver)
-- Alembic (миграции)
-- Pydantic v2
+- Alembic (migrations)
+- Pydantic
 
-## Запуск
+---
 
-### 1) База данных (Docker)
+## 🚀 Запуск проекта
+
+### 1) Поднять PostgreSQL в Docker
 ```bash
 docker run --name pg-fastapi \
   -e POSTGRES_USER=postgres \
